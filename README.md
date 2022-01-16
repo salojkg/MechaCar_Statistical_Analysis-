@@ -21,7 +21,7 @@ The multiple r-square value is 0.7149 and the p-value is below the significance 
 ### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 
-- For th eentire manufacturing lost the PSI variance of 62.3, which meets the design specification (ot exceed 100 pounds per square inch).
+- For the entire manufacturing lost the PSI variance of 62.3, which meets the design specification (ot exceed 100 pounds per square inch).
 <img width="393" alt="total summary df" src="https://user-images.githubusercontent.com/90934630/149641052-c17bc768-51c6-415e-8114-ae9e1faad47c.png">
 
 - Individually - Lot 1 had a PSI variance of 0.980 and lot 2 had a PSI variance of 7.47. Lot 3 did not meet the design specification, which has PSI variance of 170.
