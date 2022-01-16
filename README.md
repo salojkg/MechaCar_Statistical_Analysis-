@@ -2,8 +2,6 @@
 
 ## Linear Regression to Predict MPG
 
-<img width="585" alt="Deliverable 1" src="https://user-images.githubusercontent.com/90934630/149641079-83cd9ebd-741e-4c3f-b692-59965ccb392b.png">
-
 
 ### Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset? 
 
@@ -15,6 +13,8 @@ The multiple r-square value is 0.7149 and the p-value is below the significance 
 ### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 - Yes, The r-square value (0.7149) implies that  about 71% of predictions will be correct using this linear model.
 - p-value is 5.35e-11, which is below the significance level of 0.05%.
+
+<img width="585" alt="Deliverable 1" src="https://user-images.githubusercontent.com/90934630/149641079-83cd9ebd-741e-4c3f-b692-59965ccb392b.png">
 
 ## Summary Statistics on Suspension Coils
 
@@ -40,18 +40,27 @@ The multiple r-square value is 0.7149 and the p-value is below the significance 
 
 
 
-DESIGN MY OWN STUDY:
-Horsepower is a metric that can be used to compare the MechaCar prototype vehicle to other comparable vehicles on the market. Although the MechaCar dataset did not include this metric, the mtcars dataset did. I used a single linear regression model to determine whether there is a correlation between horsepower (hp) and miles per gallon (mpg). It tested the following hypotheses:
-  * H0: There is a correlation between hp and mpg.
-  * Ha: There is no collreation between hp and mpg.
-The model resulted in a multiple r-square value of 0.6024. Given the multiple r-square value, I can see that there is a moderate/strong correlation between hp and mpg.
+## Study Design - MechaCar Vs Competition
 
-I used a one-sample t-test as my second statistical test. I tested on a sample size of 16 to see if there is statistical similarities between the horsepower sample mean and horsepower population mean. I did this to see if hp would be worthy data collection point for further analysis. It tested the following hypotheses:
-  * H0 : There is no statistical difference between the observed sample mean and its presumed population mean.
-  * Ha : There is a statistical difference between the observed sample mean and its presumed population mean.
-The t-test resulted in a p-value of 0.4084, which is above the significance level of 0.05%. Therefore, I do not have sufficient evidence to reject the null hypothesis, and thereby state that the two means are statistically similar.
+I would like to design a study using the following details
+- Metrics
+  * Cost
+  * Safety Ratings
 
-Based on my single linear regression model and one-sample t-test, there is evidence to suggest that horsepower would be a worthy data collection point to include in the MechaCar dataset for further studies.
+- Hypothesis
+  
+  * H0: There is a correlation between Cost & Safety Ratings
+  * Ha: There is no collreation between Cost & Safety Ratings.
+
+- Testing the Hypothesis
+
+  * P-value Test : The p-value, or probability value, tells you how likely it is that your data could have occurred under the null hypothesis
+  * T-Test for comparison of MerchaCar Vs Competition
+ 
+- Data Required
+ 
+  * MechaCar & Competitor - Vehicle Model, Cost, Safety Ratings
+
 
 
 
